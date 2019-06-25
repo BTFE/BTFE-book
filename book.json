@@ -1,0 +1,39 @@
+{
+  "title": "BTFE's blog",
+  "author": "BTFE",
+  "description": "👏 welcome to BTFE's blog",
+  "generator": "site",
+  "links": {
+    "sidebar": {
+      "\uD83D\uDC4F welcome to BTFE's blog": "https://github.com/btfe/btfe-blog"
+    }
+  },
+
+  "plugins": ["disqus", "-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
+    "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
+    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters"],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "btfe"
+    },
+    "github": {
+      "url": "https://github.com/BTFE"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy btfe 2019",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    },
+    "edit-link": {
+      "base": "https://github.com/btfe/btfe-book/blob/master",
+      "label": "Edit This Page"
+    }
+  }
+}
