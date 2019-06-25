@@ -25,4 +25,4 @@ script:
 after_success:
   - cd ./_book/
   - echo 准备移动至指定文件夹...
-  - scp -o stricthostkeychecking=no -r ./* root@119.3.215.227:/root/AngusYang/www
+  - scp -o stricthostkeychecking=no -r ./* root@119.3.215.227/root/AngusYang/www
