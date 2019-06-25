@@ -35,5 +35,8 @@
       "base": "https://github.com/btfe/btfe-book/blob/master",
       "label": "Edit This Page"
     }
+  },
+  "styles": {
+    "website": "styles/website.css"
   }
 }
