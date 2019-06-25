@@ -10,6 +10,9 @@ before_install:
   - chmod 600 ~/.ssh/id_btfe
   - echo -e "Host 119.3.215.227\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_btfe" >> ~/.ssh/config
 
+addons:
+  ssh_known_hosts: 119.3.215.227
+
 install:
   - npm install -g gitbook-cli
   - gitbook install
