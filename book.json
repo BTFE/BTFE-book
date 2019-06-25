@@ -11,7 +11,7 @@
 
   "plugins": ["disqus", "-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
     "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
-    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters"],
+    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "favicon"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "btfe"
@@ -34,6 +34,15 @@
     "edit-link": {
       "base": "https://github.com/btfe/btfe-book/blob/master",
       "label": "Edit This Page"
+    },
+    "favicon": {
+      "shortcut": "assets/images/favicon.ico",
+      "bookmark": "assets/images/favicon.ico",
+      "appleTouch": "assets/images/favicon.ico",
+      "appleTouchMore": {
+        "120x120": "assets/images/favicon.ico",
+        "180x180": "assets/images/favicon.ico"
+      }
     }
   },
   "styles": {
