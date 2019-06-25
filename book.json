@@ -9,9 +9,9 @@
     }
   },
 
-  "plugins": ["disqus", "-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
+  "plugins": ["disqus@0.1.0", "-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
     "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
-    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "favicon"],
+    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "custom-favicon"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "btfe"
@@ -35,15 +35,7 @@
       "base": "https://github.com/btfe/btfe-book/blob/master",
       "label": "Edit This Page"
     },
-    "favicon": {
-      "shortcut": "assets/images/favicon.ico",
-      "bookmark": "assets/images/favicon.ico",
-      "appleTouch": "assets/images/favicon.ico",
-      "appleTouchMore": {
-        "120x120": "assets/images/favicon.ico",
-        "180x180": "assets/images/favicon.ico"
-      }
-    }
+    "favicon": "assets/images/favicon.ico"
   },
   "styles": {
     "website": "styles/website.css"
